@@ -3,10 +3,14 @@ A website for demonstrating my Bootstrap 4 Skills.
 
 Project Details:---------------------------------------
 
-Date Created: 05-May-2019 
-Project Name: Bootstrap Project 
-Created By: Manas Soni 
+Date Created: 05-May-2019
+
+Project Name: Bootstrap Project
+
+Created By: Manas Soni
+
 Email: manassoni7827@gmail.com
+
 
 Technologies Used: HTML 5, CSS3, Bootstrap 4.3.1, JavaScript (minimal). 
 Other tools: font-swesome 5, unsplash, pixaby, etc.
