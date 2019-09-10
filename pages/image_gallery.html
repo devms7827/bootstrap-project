@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Image Gallery using Bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="../images/icons/bootstrap.png">
+
+		<!--Adding Bootstrap 4.3-->
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+		<!-- Adding font from google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+		
+		<!-- Adding custom stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/image_gallery.css">
+		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+
+		<!-- Adding Icon Fontset of awesomefont.com -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body >
+		<!-- Navigation bar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+			<div class="container">
+
+				<!--Adding Brand-->
+				<a class="navbar-brand" href="../index.html" title="Bootstrap Project">
+					<i class="fab fa-bootstrap" style="font-size: 1.2rem;"></i> Bootstrap Project
+				</a>
+
+				<!-- Adding Collapsable button -->
+				<button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#collapsedMenu" aria-controls="collapsedMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Adding Collapsable menu items -->
+				<div class="collapse navbar-collapse" id="collapsedMenu">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item ml-1">
+							<a class="nav-link" href="../index.html" title="Home Page">
+								<i class="fas fa-home"></i> Home
+								
+							</a>
+						</li>
+						<li class="nav-item active ml-1">
+							<a class="nav-link" href="image_gallery.html" title="Image Gallery Page">
+								<i class="far fa-images"></i> Image Gallery
+								<span class="sr-only">(current)</span>
+								<!-- sr-only class is used for screen readers -->
+							</a>
+						</li>
+						<li class="nav-item ml-1">
+							<a class="nav-link" href="tindog.html" title="TinDog Product Landing Page">
+							<i class="fas fa-dog"></i> TinDog LandingPage</a>
+						</li>
+						
+					</ul>
+
+					<!-- Not using mr-auto class in this ul to shift these elements to right -->
+					<ul class="navbar-nav">
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#" title="Log-In">
+							<i class="fas fa-user"></i>
+							Log-In</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#" title="Sign-Up">
+								<i class="fas fa-user-plus"></i>
+								Sign-Up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Creating the body -->
+		<div class="container">
+			<!-- Creating the jumbotron -->
+			<div class="jumbotron">
+				<h1 class="display-4 text-custom my-3">
+					<i class="fas fa-camera-retro"></i>
+				my image gallery</h1>
+				<p class="lead">I have used Jumbotron and GRID components of Bootstrap in this page. Image will be resized for 4 different screen sizes as xl,lg,md and sm. All the images are downloaded from unsplash.com for free!</p>
+			</div>
+
+			<!-- Creating the Image Gallery Grid System -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (1).jpg" alt="Image 1" title="Image 1">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (2).jpg" alt="Image 2" title="Image 2">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (3).jpg" alt="Image 3" title="Image 3">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (4).jpg" alt="Image 4" title="Image 4">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (5).jpg" alt="Image 5" title="Image 5">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (6).jpg" alt="Image 6" title="Image 6">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (7).jpg" alt="Image 7" title="Image 7">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (8).jpg" alt="Image 8" title="Image 8">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (9).jpg" alt="Image 9" title="Image 9">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (10).jpg" alt="Image 10" title="Image 10">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (11).jpg" alt="Image 11" title="Image 11">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (12).jpg" alt="Image 12" title="Image 12">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (1).jpg" alt="Image 13" title="Image 13">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (2).jpg" alt="Image 14" title="Image 14">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (3).jpg" alt="Image 15" title="Image 15">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (4).jpg" alt="Image 16" title="Image 16">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (5).jpg" alt="Image 17" title="Image 17">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (6).jpg" alt="Image 18" title="Image 18">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (7).jpg" alt="Image 19" title="Image 19">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (8).jpg" alt="Image 20" title="Image 20">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (9).jpg" alt="Image 21" title="Image 21">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (10).jpg" alt="Image 22" title="Image 22">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (11).jpg" alt="Image 23" title="Image 23">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="img-thumbnail">
+						<img class="img-fluid" src="../images/image (12).jpg" alt="Image 24" title="Image 24">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Adding JS, Popper.js, Jquery-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

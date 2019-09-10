@@ -1,0 +1,55 @@
+/*These are my custom styles for the Home Page*/
+
+#home-background{
+	background: url('../images/main-page__banner.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: Lora, sans-serif;
+	background-repeat: no-repeat;
+	color: rgb(255,255,255);
+}
+
+#center{
+	text-align: center;
+	padding-top: 20%;
+}
+
+.hr{
+	width: 35%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3.5em;
+}
+
+h5{
+	font-size: 1.2em;
+}
+
+h1, h5{
+	text-shadow: 5px 6px 6px rgb(220, 53, 69);
+}
+
+html{
+	height: 100%;
+}
+
+/*Css Styles for navbar*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    /*changed the opacity to full from .5*/
+}
+
+.active {
+	background-color: #be323f;
+}
+
+/* Additional Styles */
+
+.btn-danger:hover {
+	box-shadow: 5px 6px 6px rgb(220, 53, 69);
+}

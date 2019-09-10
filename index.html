@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap Project (v4.3)</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="images/icons/bootstrap.png">
+		<!--Adding Bootstrap 4.3-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+		
+		<!-- Adding font from google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+		<!-- Adding custom stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/navbar.css"> -->
+		<!-- Adding Icon Fontset of awesomefont.com -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body id="home-background">
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+			<div class="container">
+				<!--Adding Brand-->
+				<a class="navbar-brand" href="index.html" title="Bootstrap Project">
+					<i class="fab fa-bootstrap" style="font-size: 1.2rem;"></i> Bootstrap Project
+				</a>
+				<!-- Adding Collapsable button -->
+				<button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#collapsedMenu" aria-controls="collapsedMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Adding Collapsable menu items -->
+				<div class="collapse navbar-collapse" id="collapsedMenu">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active ml-1">
+							<a class="nav-link" href="index.html" title="Home Page">
+								<i class="fas fa-home"></i> Home
+								<span class="sr-only">(current)</span>
+								<!-- sr-only class is used for screen readers -->
+							</a>
+						</li>
+						<li class="nav-item ml-1">
+							<a class="nav-link" href="pages/image_gallery.html" title="Image Gallery Page">
+								<i class="far fa-images"></i>
+							Image Gallery</a>
+						</li>
+						<li class="nav-item ml-1">
+							<a class="nav-link" href="pages/tindog.html" title="TinDog Produnct Landing Page">
+								<i class="fas fa-dog"></i>
+							TinDog LandingPage</a>
+						</li>
+						
+					</ul>
+					<!-- Not using mr-auto class in this ul to shift these elements to right -->
+					<ul class="navbar-nav">
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#" title="Log-In">
+								<i class="fas fa-user"></i>
+							Log-In</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link" href="#" title="Sign-Up">
+								<i class="fas fa-user-plus"></i>
+							Sign-Up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Creating the body -->
+		<div class="container mt-5 mt-xl-2 mt-md-5 mt-sm-5">
+			<div class="row">
+				<div class="col-12" id="center">
+					<h1>Bootstrap</h1>
+					<h5>Created by Manas Soni using Bootstrap v4.3</h5>
+					<hr class="hr">
+					<a href="mailto:manassoni7827@gmail.com" title="Contact me at manassoni7827@gmail.com" class="btn btn-danger btn-lg">
+						<i class="far fa-envelope"></i>&nbsp;&nbsp;Contact Me!
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--Adding JS, Popper.js, Jquery-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

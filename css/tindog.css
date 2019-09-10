@@ -1,0 +1,329 @@
+/* Css styles for tindog landing page */
+
+body{
+	font-family: "Montserrat";
+
+}
+
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+h1{
+	line-height: 1.5;
+	font-size: 3.5rem;
+	font-weight: 900;
+}
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+/* Navigation part styling */
+
+.navbar{
+	padding: 0 0 4.5rem;
+	border: none;
+}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.nav-item{
+	padding: 0 0.5rem;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Title section buttons styling */
+
+.d-button{
+	margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image Style */
+
+.image-title{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 27%;
+}
+
+
+/* Features Styling */
+
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.feature_box{
+	padding: 5%;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+
+p{
+	color: #8f8f8f;
+}
+
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #ff4c68;
+}
+
+/* Testimonials Stylings */
+
+#testimonials {
+	background-color: #ef8172;
+	color: #fff;
+	text-align: center;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 4.5rem;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 1rem;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 1rem 1rem 2.5rem;
+}
+
+/* Carosel styling */
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+/* Pricing section styles */
+
+#pricing {
+	padding: 4rem;
+	text-align: center;
+}
+
+.pricing {
+	font-size: 2rem;
+}
+
+.col-custom{
+	padding: 3% 2%;
+}
+
+.card-body .btn-dark:hover {
+	background-color: #ff4c68;	
+}
+
+/* Call to action */
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 8rem;
+}
+
+#cta h3 {
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+#cta button {
+	margin: 5% 1% 0;
+}
+
+/* Footer styles */
+#footer{
+	text-align: center;
+	padding: 8rem 2rem;
+	font-size: 1.1rem;
+}
+
+#footer > i{
+	padding: 1rem 1rem;
+	font-size: 1.5rem;
+}
+
+/* Media Query's for responsive behaviour */
+
+@media (max-width: 1200px) {
+	h1{
+		line-height: 1.4;
+		font-size: 3.2rem;
+		font-weight: 900;
+	}
+
+	.image-title{
+		width: 60%;
+		transform: rotate(0);
+		position: static;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-brand {
+	    font-size: 1.5rem;
+	}
+
+	h1 {
+    	font-size: 2.8rem;
+	}
+
+	h2{
+		font-weight: normal !important;
+		font-size: 1.5rem !important;
+		line-height: 2.5rem !important;
+	}
+
+	#cta h3 {
+		color: #fff;
+		font-size: 1.8rem !important;
+	}
+
+	#cta {
+		background-color: #ff4c68;
+		text-align: center;
+		padding: 8rem 2rem;
+	}
+}
+
+@media (max-width: 1044px) {
+	.d-button {
+    	margin: 5% 3% 0 0 !important;
+	}
+}
+
+@media (max-width: 956px) {
+	.image-title{
+		width: 70%;
+		transform: rotate(0);
+		position: static;
+	}
+
+	h1 {
+    	font-size: 2.6rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.image-title{
+		margin: 2.5rem 0 0;
+		width: 43%;
+		transform: rotate(0);
+		position: static;
+	}
+
+	.display {
+		display: none;
+	}
+
+	h1 {
+    	font-size: 2.2rem;
+	}
+
+	#title {
+		text-align: center;
+	}
+
+	.nav-item {
+		text-align: left;
+	}
+
+	h2{
+		font-weight: normal !important;
+		font-size: 1.2rem !important;
+		line-height: 2rem !important;
+	}
+
+	#cta h3 {
+		color: #fff;
+		font-size: 2rem !important;
+		font-weight: normal !important;
+		margin-bottom: 2rem !important;
+	}
+
+}
+
+@media (max-width: 576px) {
+	.image-title{
+		margin: 2rem 0 0;
+		width: 60%;
+		transform: rotate(0);
+		position: static;
+	}
+
+	h1 {
+    	font-size: 2rem;
+	}
+
+	#title {
+		text-align: center;
+	}
+
+	.nav-item {
+		text-align: left;
+	}
+
+	h2{
+		font-weight: normal !important;
+		font-size: 1rem !important;
+		line-height: 1.8rem !important;
+	}
+
+	#cta {
+		background-color: #ff4c68;
+		text-align: center;
+		padding: 6rem 2rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	h2{
+		font-weight: bold;
+		font-size: 2rem;
+		line-height: 3.5rem;
+	}
+
+	#cta h3 {
+		color: #fff;
+		font-size: 2rem;
+	}
+}

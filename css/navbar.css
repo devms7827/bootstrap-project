@@ -1,0 +1,10 @@
+/*Css Styles for navbar*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    /*changed the opacity to full from .5*/
+}
+
+.active {
+	background-color: #be323f;
+}
